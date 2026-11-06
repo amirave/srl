@@ -1,6 +1,8 @@
 # SRL
 
-Tweak a C program's globals without recompiling. Mark variables with the macros in `include/srl.h`, then open the binary in `srl_editor`: edit values, run it inside the editor, and change them live while it runs.
+SRL allows you to tweak a program's globals without recompiling and with no runtime cost via the ELF symbol table!!!
+
+Mark globals as serializable with the SRL macros, and use the TUI editor to modify them - both as a binary file and at runtime.
 
 ```c
 #include "srl.h"
