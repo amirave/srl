@@ -1,0 +1,6 @@
+srl_editor
+srl_editor_gtk
+examples/main
+examples/dodger
+*.pat
+*.o
