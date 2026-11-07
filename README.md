@@ -1,5 +1,7 @@
 # SRL
 
+![SRL preview](preview.gif)
+
 SRL allows you to tweak a program's globals without recompiling and with no runtime cost via the ELF symbol table!!!
 
 To use, copy `include/srl.h` into your project. mark globals as serializable with the SRL macros, and use the TUI editor to modify them - both as a binary file and at runtime.
